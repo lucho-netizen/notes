@@ -102,7 +102,7 @@ const App = () => {
           return note;
         });
         setNotes(updatedNotes);
-        closeEditModalHandler(); // Cerrar el modal después de la actualización
+        closeEditModalHandler(); // Cerrar el modal después de la actualización.
         showSnackbar("Note updated successfully");
       })
       .catch((error) => console.log(error));
